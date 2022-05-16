@@ -1,0 +1,29 @@
+@import url("../vendor/normalize.css");
+@import url("header.css");
+@import url("menu.css");
+@import url("book.css");
+@import url("recipes.css");
+@import url("book.css");
+@import url("contacts.css");
+@import url("footer.css");
+
+/*  
+Font Fallbacks  
+Inter -> Arial -> sans-serif   
+Noto Serif -> Times New Roman -> sans-serif
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  overflow-x: hidden;
+}
