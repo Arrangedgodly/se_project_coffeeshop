@@ -25,14 +25,14 @@
   right: 80px;
 }
 
-.header__nav__links {
+.header__nav_links {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
   list-style: none;
 }
 
-.header__nav__link {
+.header__nav_link {
   font-weight: 500;
   line-height: 20px;
   text-decoration: none;
@@ -43,7 +43,7 @@
   transition: color 0.8s ease-in-out;
 }
 
-.header__title__wrapper {
+.header__title_wrapper {
   position: relative;
   top: 252px;
   left: 80px;
@@ -105,7 +105,7 @@
   line-height: 20px;
 }
 
-.header__paragraph__text {
+.header__paragraph_text {
   margin: 0;
   padding: 0;
 }

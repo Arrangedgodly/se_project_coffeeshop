@@ -55,14 +55,14 @@
   height: 0;
 }
 
-.menu__card__title {
+.menu__card_title {
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 32px 0;
 }
 
-.menu__card__list {
+.menu__card_list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@
   width: 100%;
 }
 
-.menu__card__list-item {
+.menu__card_list-item {
   display: flex;
   flex-flow: row nowrap;
   font-family: 'Noto Serif', 'Times New Roman', sans-serif;
@@ -83,7 +83,7 @@
   align-items: flex-end;
 }
 
-.menu__card__list-divider {
+.menu__card_list-divider {
   display: flex;
   flex-basis: 3;
   flex-grow: 10;
