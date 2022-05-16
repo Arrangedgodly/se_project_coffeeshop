@@ -15,3 +15,4 @@ This is the second project of the Web Development program at Practicum by Yandex
 
 - Potentially switch layout of the page to go from a one-page spread to a multi-page experience
 - Create an ordering block where customers could place an advance order for the type of coffee they'd like on top of the table booking section
+- create a couple more subtle animations to breathe life into other elements of the page
