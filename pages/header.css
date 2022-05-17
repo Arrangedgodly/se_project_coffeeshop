@@ -25,25 +25,25 @@
   right: 80px;
 }
 
-.header__nav__links {
+.header__nav-links {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
   list-style: none;
 }
 
-.header__nav__link {
+.header__nav-link {
   font-weight: 500;
   line-height: 20px;
   text-decoration: none;
 }
 
-.header__nav_link:hover {
+.header__nav-link:hover {
   color: #2f80ed;
   transition: color 0.8s ease-in-out;
 }
 
-.header__title__wrapper {
+.header__title-wrapper {
   position: relative;
   top: 252px;
   left: 80px;
@@ -105,7 +105,7 @@
   line-height: 20px;
 }
 
-.header__paragraph__text {
+.header__paragraph-text {
   margin: 0;
   padding: 0;
 }
