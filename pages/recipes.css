@@ -49,3 +49,8 @@
   font-size: 20px;
   line-height: 30 px;
 }
+
+.recipes__video-caption-text {
+  margin: 0;
+  padding: 0;
+}
