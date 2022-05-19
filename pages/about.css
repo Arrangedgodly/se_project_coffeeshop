@@ -34,10 +34,14 @@
 
 .about__paragraph {
   max-width: 660px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-family: 'Noto Serif', 'Times New Roman', sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+.about__paragraph:last-of-type {
+  margin: 0;
 }
 
 .about__circle {

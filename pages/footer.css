@@ -9,7 +9,7 @@
   top: 60px;
   display: flex;
   justify-content: space-between;
-  margin: 0 100px 108px 80px;
+  margin: 60px 100px 108px 80px;
   
 }
 
@@ -51,7 +51,5 @@
 
 .footer__copyright {
   position: relative;
-  margin-top: 108px;
-  bottom: 60px;
-  left: 80px;
+  margin: 108px 0 60px 80px;
 }
