@@ -20,9 +20,10 @@
 }
 
 .nav {
-  position: absolute;
-  top: 30px;
-  right: 80px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 80px 0 0;
+  
 }
 
 .nav__links {
@@ -45,9 +46,7 @@
 }
 
 .header__title-wrapper {
-  position: relative;
-  top: 252px;
-  left: 80px;
+  padding: 252px 0 0 80px;
 }
 
 .header__title {
@@ -71,14 +70,12 @@
 
 .header__description {
   max-width: 683px;
-  position: relative;
-  top: 28px;
   font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  padding-top: 28px;
 }
 
 .header__image {
@@ -90,20 +87,19 @@
 }
 
 .header__paragraph {
+  font-weight: 500;
+  line-height: 20px;
   position: absolute;
   bottom: 40px;
   left: 80px;
 }
 
 .header__paragraph-alt {
+  font-weight: 500;
+  line-height: 20px;
   position: absolute;
   bottom: 40px;
   right: 80px;
-}
-
-.header__paragraph .header__paragraph_alt {
-  font-weight: 500;
-  line-height: 20px;
 }
 
 .header__paragraph-text {

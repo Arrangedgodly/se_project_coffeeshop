@@ -69,15 +69,12 @@
 
 .reservation_form-checkbox {
   border-radius: 2px;
-}
-
-input[type="checkbox"] {
   width: 20px;
   height: 20px;
   margin-right: 12px;
 }
 
-input[type="checkbox"]:checked {
+.reservation_form-checkbox:checked {
   background-color: #2f80ed;
   background-image: url("../images/check.svg");
 }
