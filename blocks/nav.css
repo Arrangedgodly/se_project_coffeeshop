@@ -1,7 +1,6 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  position: relative;
   padding: 30px 80px 0 0;
 }
 
@@ -12,6 +11,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .nav__link {
@@ -24,5 +24,4 @@
 
 .nav__link:hover {
   color: #2f80ed;
-  transition: color 0.6s ease-in-out;
 }
