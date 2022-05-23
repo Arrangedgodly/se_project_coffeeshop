@@ -14,7 +14,7 @@
 }
 
 .form__label {
-  width: 385px;
+  max-width: 385px;
   display: flex;
   align-items: flex-start;
   font-weight: 500;
