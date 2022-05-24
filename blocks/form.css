@@ -1,8 +1,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 385px;
-  margin-bottom: 120px;
   align-items: center;
 }
 
@@ -28,9 +26,11 @@
 }
 
 .form__input {
+  box-sizing: border-box;
   border-radius: 4px;
   height: 60px;
-  margin-bottom: 32px;
+  margin: 0 0 32px 0;
+  padding: 0;
   width: 385px;
   font-size: 20px;
   line-height: 30px;
@@ -40,7 +40,8 @@
 
 .form__button {
   border-radius: 4px;
-  color: #838383;
+  color: #ffffff;
+  background-color: #2f80ed;
   border-color: #838383;
   height: 60px;
   width: 385px;
